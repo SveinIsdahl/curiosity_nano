@@ -1,4 +1,5 @@
-# curiosity_nano
+# Curiosity nano
+This is a reference repo to set up compilation and flashing of an ATMega4809
 # Compilation
 
 avr-gcc -mmcu=atmega4809 -B Atmel.ATmega_DFP.2.0.401/gcc/dev/atmega4809 -I Atmel.ATmega_DFP.2.0.401/include/ -Os main.c -o main.elf && avr-objcopy -O ihex main.elf main.hex
